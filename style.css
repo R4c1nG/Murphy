@@ -20,8 +20,10 @@ p.one {
     position: relative;
     border: hsl(40, 40%, 35%) 2px solid;
     background-color: hsl(40, 100%, 75%);
-    margin-left: 10%;
-    margin-right: 10%;
+    left: 10%;
+    top: 10%;
+    width: 75%;
+    height: 7%;
     text-align: center;
     padding: 10px;
 }
@@ -30,26 +32,23 @@ p.two {
     border: hsl(60, 64%, 55%) 4px solid;
     background-color: hsl(60, 100%, 75%);
     position: absolute;
-    float: left;
-    margin-left: 5%;
-    margin-right: 5%;
     width: 35%;
     height: 25%;
+    left: 10%;
+    right: 90%;
     text-align: left;
-    margin-top: 25%;
 }
 
 p.th {
     position: absolute;
-    float: left;
     border: hsl(300, 15%, 70%) 4px solid;
     background-color: hsl(300, 100%, 95%);
-    margin-left: 5%;
-    margin-right: 5%;
     width: 35%;
     height: 25%;
-    text-align: left;
+    left: 10%;
+    right: 90%;
     margin-top: 25%;
+    text-align: left;
 }
 
 p.mid {
@@ -65,7 +64,6 @@ p.mid {
 
 p.for {
     position: absolute;
-    float: right;
     border: hsl(180, 25%, 70%) 4px solid;
     background-color: hsl(180, 100%, 90%);
     width: 35%;
@@ -73,12 +71,10 @@ p.for {
     right: 5%;
     text-align: right;
     bottom: 5%;
-    margin-top: 25%;
 }
 
 p.fiv {
     position: absolute;
-    float: right;
     border: hsl(0, 15%, 45%) 4px solid;
     background-color: hsl(0, 100%, 85%);
     width: 35%;
