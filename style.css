@@ -16,6 +16,11 @@ h1 {
     margin: 1%;
 }
 
+p:hover { 
+    display: block;
+    z-index: 3;
+}
+
 p.one {
     position: relative;
     border: hsl(40, 40%, 35%) 2px solid;
@@ -60,6 +65,7 @@ p.mid {
     height: 30%;
     top: 43%;
     text-align: center;
+    z-index: 2;
 }
 
 p.for {
@@ -68,7 +74,7 @@ p.for {
     background-color: hsl(180, 100%, 90%);
     width: 35%;
     height: 25%;
-    right: 5%;
+    right: 10%;
     text-align: right;
     bottom: 5%;
     top: 27%;
@@ -80,7 +86,7 @@ p.fiv {
     background-color: hsl(0, 100%, 85%);
     width: 35%;
     height: 25%;
-    right: 5%;
+    right: 10%;
     text-align: right;
     bottom: 5%;
     top: 70%;
