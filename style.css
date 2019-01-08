@@ -20,12 +20,11 @@ p.one {
     position: relative;
     border: hsl(40, 40%, 35%) 2px solid;
     background-color: hsl(40, 100%, 75%);
-    left: 10%;
     top: 10%;
-    width: 75%;
-    height: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 5%;
 }
 
 p.two {
@@ -52,13 +51,14 @@ p.th {
 }
 
 p.mid {
-    position: 
+    position: absolute;
     border: hsl(120, 40%, 35%) 4px solid;
     background-color: hsl(120, 100%, 75%);
-    margin-left: 5%;
-    margin-right: 5%;
+    left: 30%;
+    right: 30%;
     width: 35%;
-    height: 25%;
+    height: 30%;
+    top: 43%;
     text-align: center;
 }
 
@@ -71,6 +71,7 @@ p.for {
     right: 5%;
     text-align: right;
     bottom: 5%;
+    top: 27%;
 }
 
 p.fiv {
@@ -82,5 +83,5 @@ p.fiv {
     right: 5%;
     text-align: right;
     bottom: 5%;
-    margin-top: 25%;
+    top: 70%;
 }
